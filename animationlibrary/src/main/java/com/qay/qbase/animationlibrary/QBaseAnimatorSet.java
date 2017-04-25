@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.animation.Interpolator;
 
 public abstract class QBaseAnimatorSet {
-    /** 动画时长,系统默认250 */
     protected long duration = 500;
     protected AnimatorSet animatorSet = new AnimatorSet();
     private Interpolator interpolator;
@@ -16,7 +15,6 @@ public abstract class QBaseAnimatorSet {
     public abstract void setAnimation(View view);
 
     protected void start(final View view) {
-        /** 设置动画中心点:pivotX--->X轴方向动画中心点,pivotY--->Y轴方向动画中心点 */
         // ViewHelper.setPivotX(view, view.getMeasuredWidth() / 2.0f);
         // ViewHelper.setPivotY(view, view.getMeasuredHeight() / 2.0f);
         reset(view);
@@ -69,31 +67,40 @@ public abstract class QBaseAnimatorSet {
         view.setRotationX(0);
     }
 
-    /** 设置动画时长 */
+    /** set time
+     * @param duration
+     * @return
+     */
     public QBaseAnimatorSet duration(long duration) {
         this.duration = duration;
         return this;
     }
 
-    /** 设置动画时长 */
+    /** set time
+     * @param delay
+     * @return
+     */
     public QBaseAnimatorSet delay(long delay) {
         this.delay = delay;
         return this;
     }
-
-    /** 设置动画插补器 */
+    /** set time
+     * @param interpolator
+     * @return
+     */
     public QBaseAnimatorSet interpolator(Interpolator interpolator) {
         this.interpolator = interpolator;
         return this;
     }
-
-    /** 动画监听 */
+    /** set time
+     * @param listener
+     * @return
+     */
     public QBaseAnimatorSet listener(AnimatorListener listener) {
         this.listener = listener;
         return this;
     }
 
-    /** 在View上执行动画 */
     public void playOn(View view) {
         start(view);
     }

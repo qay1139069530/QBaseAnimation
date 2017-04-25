@@ -19,7 +19,6 @@ public class QBaseBounceEnter extends QBaseAnimatorSet {
 				ObjectAnimator.ofFloat(view, "scaleY", 0.5f, 1.05f, 0.95f, 1));
 		/**
 		 * <pre>
-		 * 另一种弹性实现:依据sweet-alert-dialog布局文件实现
 		 * ObjectAnimator oa_alpha = ObjectAnimator.ofFloat(view, "alpha", 0.2f, 1).setDuration(90);
 		 * 
 		 * AnimatorSet as1 = new AnimatorSet();
