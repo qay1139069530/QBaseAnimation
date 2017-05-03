@@ -1,1 +1,1 @@
-include ':app', ':animationlibrary'
+include ':app', ':animation'

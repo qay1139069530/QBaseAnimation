@@ -3,10 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/QBaseAnimation.iml" filepath="$PROJECT_DIR$/QBaseAnimation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/QBaseAnimation.iml" filepath="$PROJECT_DIR$/QBaseAnimation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/animationlibrary/animationlibrary.iml" filepath="$PROJECT_DIR$/animationlibrary/animationlibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/animationlibrary/animationlibrary.iml" filepath="$PROJECT_DIR$/animationlibrary/animationlibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animation/animation.iml" filepath="$PROJECT_DIR$/animation/animation.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
